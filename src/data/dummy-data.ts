@@ -1,0 +1,28 @@
+import type { Product } from "@/types/types";
+
+export const sampleProducts: Product[] = [
+  { id: "p1", name: "Choy 100 gr", price: 12000, category: "Ichimlik" },
+  { id: "p2", name: "Shokolad", price: 8000, category: "Shirinlik" },
+  { id: "p3", name: "Sut 1L", price: 9000, category: "Ichimlik" },
+  { id: "p4", name: "Qalam", price: 2000, category: "Ommaviy" },
+  { id: "p5", name: "Sabun", price: 6000, category: "Gigiena" },
+  { id: "p6", name: "Kola 330ml", price: 10000, category: "Ichimlik" },
+  { id: "p7", name: "Pepsi 1L", price: 14000, category: "Ichimlik" },
+  { id: "p8", name: "Fanta 500ml", price: 9000, category: "Ichimlik" },
+  { id: "p9", name: "Baton Non", price: 3500, category: "Non" },
+  { id: "p10", name: "Buxanka Non", price: 5000, category: "Non" },
+  { id: "p11", name: "Goʻsht 1kg", price: 85000, category: "Sovuq" },
+  { id: "p12", name: "Tovuq 1kg", price: 30000, category: "Sovuq" },
+  { id: "p13", name: "Pomidor 1kg", price: 9000, category: "Sabzavot" },
+  { id: "p14", name: "Bodring 1kg", price: 7000, category: "Sabzavot" },
+  { id: "p15", name: "Guruch 1kg", price: 16000, category: "Ommaviy" },
+  { id: "p16", name: "Guruch Lazer 1kg", price: 21000, category: "Ommaviy" },
+  { id: "p17", name: "Muzqaymoq Classic", price: 6000, category: "Shirinlik" },
+  { id: "p18", name: "Muzqaymoq Choco", price: 7000, category: "Shirinlik" },
+  { id: "p19", name: "Ketchup", price: 5000, category: "Sos" },
+  { id: "p20", name: "Mayonez", price: 6000, category: "Sos" },
+  { id: "p21", name: "Sos", price: 4000, category: "Sos" },
+  { id: "p22", name: "Sutcha", price: 3500, category: "Ichimlik" },
+  { id: "p23", name: "Choy paket", price: 2500, category: "Ichimlik" },
+  { id: "p24", name: "Shtamp", price: 15000, category: "Ommaviy" },
+];
