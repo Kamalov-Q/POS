@@ -11,7 +11,7 @@ interface BranchProps {
   status: "active" | "inactive";
 }
 
-export default function BranchCard(branch: BranchProps) {
+export default function BranchCard({ branch }: { branch: BranchProps }) {
   return (
     <Card className="shadow hover:shadow-lg transition-all">
       <CardHeader className="flex flex-row justify-between items-center">
@@ -25,7 +25,7 @@ export default function BranchCard(branch: BranchProps) {
           }`}
         >
           <Circle className="w-3 h-3 mr-1" />
-          {branch.status === "active" ? "Faol" : "Faol emas"}
+          {branch.status === "active" ? "Faol" : "Faolmas"}
         </span>
       </CardHeader>
 

@@ -2,7 +2,6 @@
 
 import BranchCard from "@/components/BranchCart";
 
-
 export default function BranchesPage() {
   const branches = [
     {
@@ -12,7 +11,7 @@ export default function BranchesPage() {
       staff: 12,
       phone: "+998 90 123 45 67",
       location: "Amir Temur ko'chasi, 12",
-      status: "active",
+      status: "inactive",
     },
     {
       id: 2,
@@ -58,7 +57,7 @@ export default function BranchesPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {branches.map((branch) => (
-          <BranchCard key={branch.id} branch={branch} />
+          <BranchCard key={branch?.id} branch={branch} />
         ))}
       </div>
     </div>
